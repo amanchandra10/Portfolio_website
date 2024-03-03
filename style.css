@@ -581,7 +581,7 @@ body{
     }
     
 }
-@media(max-width:300px) {
+@media(max-width:360px) {
     .main{
         width: 401vw;
     }
