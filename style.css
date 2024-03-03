@@ -20,7 +20,7 @@ body {
   height: 99vh;
   width: 100%;
   /* background-color: blanchedalmond; */
-  background-image: url("./Resources/pexels-photo-255379.jpeg");
+  background-image: url("./Resources/bgPhoto.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
 }
