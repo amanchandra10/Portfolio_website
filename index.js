@@ -13,7 +13,11 @@ function skill(){
       <li>JAVASCRIPT</li>
       <li>PHP</li>
       <li>MYSQL</li>
+      <li>MongoDb</li>
+      <li>Express</li>
+      <li>REACT JS</li>
       <li>NODE-JS</li>
+      <li>React-Native</li>
       <li></li>
     </ul>
     <ul class="ul1">
@@ -30,6 +34,8 @@ function experience(){
     con.innerHTML=
     `<h1 style="color:aliceblue;">Experience</h1>
     <ul class="ul1">
+    <li><p>1 month internship experience in The  Codeclause.</p></li>
+    <li><p>6 month internship experience in The Predulive Labs.</p></li>
     <li><p>1 month internship experience in The Sparks Foundation.</p></li>
     <li><p>1 month internship experience in Oasis Infobyte.</p></li>
     </ul>`
