@@ -231,7 +231,7 @@ body {
 }
 .ser {
   font-size: 3rem;
-  color: rgb(169, 169, 255);
+  color: rgb(134, 134, 255);
   text-decoration: underline;
   margin-left: 4rem;
 }
@@ -583,7 +583,7 @@ body {
     align-items: center;
     justify-content: space-between;
     list-style-type: none;
-    font-size: 94%;
+    font-size: 88%;
   }
   .name {
     color: rgb(0, 75, 255);
