@@ -56,7 +56,7 @@ function education(){
 
 
 function submit1(){
-  alert("Submited")
+  alert("This function is not working now. Use email")
   // var name=document.getElementById("input12").values;
   // console.log(name);
 }
