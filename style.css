@@ -182,7 +182,7 @@ body {
   flex-direction: column;
   padding-left: 8rem;
   padding-right: 8rem;
-  padding-top: 10rem;
+  padding-top: 8rem;
   padding-bottom: 10rem;
 }
 .main3 {
@@ -369,6 +369,7 @@ body {
   /* padding-left: 8rem;
     padding-right: 8rem; */
   padding-top: 10rem;
+  padding-bottom: 10rem;
 }
 .work {
   margin-top: 3rem;
