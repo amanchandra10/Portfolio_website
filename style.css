@@ -21,6 +21,9 @@ body {
   overflow-x: hidden;
   /* background-color: rgb(131, 88, 23); */
 }
+img {
+  pointer-events: none;
+}
 .main {
   margin-top: 6.5rem;
   height: 99vh;
