@@ -388,7 +388,7 @@ body {
   justify-content: space-around;
   /* padding: 4rem; */
   box-shadow: 1px 1px 10px 1px black;
-  transition: transform 0.2s;
+  transition: transform 0.4s;
 }
 .work0:hover {
   background-color: red;
