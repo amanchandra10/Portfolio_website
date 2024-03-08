@@ -325,7 +325,7 @@ body {
   /* margin-right: 22rem; */
 }
 .learn:hover {
-  color: black;
+  color: rgba(255, 179, 37, 0.696);
 }
 
 .services {
@@ -388,7 +388,7 @@ body {
   justify-content: space-around;
   /* padding: 4rem; */
   box-shadow: 1px 1px 10px 1px black;
-  transition: transform 0.4s;
+  transition: transform 0.5s;
 }
 .work0:hover {
   background-color: red;
