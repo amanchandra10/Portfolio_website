@@ -165,6 +165,17 @@ body {
   margin-left: 13rem;
   margin-top: 13rem;
 }
+.wrap{
+  background: linear-gradient(
+    43deg,
+    #0a33ff 0%,
+    #ff00ee 46%,
+    #ffa600 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
 .name {
   color: rgb(0, 75, 255);
   /* margin-right: 6px;
