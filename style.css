@@ -237,7 +237,7 @@ body {
   align-items: center;
 }
 .photo {
-  height: 12rem;
+  height: 8rem;
   border-radius: 130px;
   pointer-events: none;
   /* border: 4px solid rgb(251, 89, 116);
@@ -920,7 +920,7 @@ body {
   }
 
   .photo {
-    height: 9rem;
+    height: 6rem;
     border-radius: 130px;
     /* border: 4px solid rgb(251, 89, 116);
     box-shadow: 1px 3px 10px 3px rgb(251, 89, 116); */

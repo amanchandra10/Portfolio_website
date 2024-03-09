@@ -60,3 +60,14 @@ function submit1(){
   // var name=document.getElementById("input12").values;
   // console.log(name);
 }
+
+
+// function onLoadFunctions() {
+//   alert("frg")
+//   const logo = document.getElementById("imggCon")
+//   logo.innerHTML=
+//   `<img src="./Resources/photo.jpg" loading="lazy" alt="logo" class="img1" />`
+
+      
+// }
+
