@@ -8,14 +8,14 @@
 html {
   scroll-behavior: smooth;
 }
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   width: 10px;
 }
-::-webkit-scrollbar-track{
+::-webkit-scrollbar-track {
   background-color: aliceblue;
   border-radius: 15px;
 }
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
   background-color: rgba(0, 255, 30, 0.836);
   border-radius: 15px;
 }
@@ -62,10 +62,31 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 2;
+  /* z-index: 2; */
   width: 80%;
   padding: 10px;
   /* text-align: center; */
+}
+
+.projbtn {
+  position: absolute;
+  top: 65%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+}
+.projectBtn {
+  padding: 5px;
+  border-radius: 4px;
+  background: linear-gradient(
+    to right,
+    rgba(203, 194, 17, 0.9),
+    rgba(252, 252, 37, 0.9)
+  );
+  cursor: pointer;
+  box-shadow: 3px 3px 6px 2px #000000ad;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
 
 .head {
@@ -198,12 +219,7 @@ body {
 }
 
 .wrap {
-  background: linear-gradient(
-    43deg,
-    #728aff 0%,
-    #ff11ef 46%,
-    #feab11 100%
-  );;
+  background: linear-gradient(43deg, #728aff 0%, #ff11ef 46%, #feab11 100%);
   /* background: linear-gradient(to right,rgba(0,168,253),#fff 35%,#e00a95); */
   background-size: 200% auto;
   -webkit-background-clip: text;
@@ -213,19 +229,25 @@ body {
   animation: gradient 3s linear infinite;
 }
 @keyframes gradient {
-  0%{background-position: 0% 75%;}
-  50%{background-position: 100% 50%;}
-  100%{background-position: 0% 70%;}
+  0% {
+    background-position: 0% 75%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 70%;
+  }
 }
 .name {
   /* color: rgb(0 255 104); */
-   background: linear-gradient(to right,rgb(0, 190, 253),#f3f3f3 35%,#ff04b4);
-   background-size: 200% auto;
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
-   background-clip: text;
-   color: transparent;
-   animation: gradient 3s linear infinite;
+  background: linear-gradient(to right, rgb(0, 190, 253), #f3f3f3 35%, #ff04b4);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  animation: gradient 3s linear infinite;
   /* margin-right: 6px;
   margin-left: 6px; */
 }
@@ -757,7 +779,7 @@ body {
     padding-left: 6px;
     /* margin-top: 50%; */
     background-color: rgb(0, 0, 0); /* Fallback color */
-    background-color: rgba(0, 0, 0, 0.570); /* Black w/opacity/see-through */
+    background-color: rgba(0, 0, 0, 0.57); /* Black w/opacity/see-through */
     color: white;
     font-weight: bold;
     border: 3px solid rgb(241 241 241 / 52%);
@@ -803,6 +825,27 @@ body {
   }
   .h11 {
     font-size: 82%;
+  }
+
+  .projbtn {
+    position: absolute;
+    top: 50%;
+    left: 23%;
+    transform: translate(-50%, -50%);
+  }
+  .projectBtn {
+    padding: 5px;
+    border-radius: 4px;
+    background: linear-gradient(
+      to right,
+      rgba(203, 194, 17, 0.9),
+      rgba(252, 252, 37, 0.9)
+    );
+    cursor: pointer;
+    box-shadow: 3px 3px 6px 2px #000000ad;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
   }
 
   .card {
