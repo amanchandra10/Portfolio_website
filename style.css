@@ -1040,8 +1040,19 @@ body {
   .contact {
     display: flex;
     flex-direction: column;
+  }
+  .contact2 {
+    height: 25rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: baseline;
+  }
+  .input1 {
+    margin-top: 1rem;
+  }
+  .btn-submit {
+    margin-top: 1rem;
   }
   .cont {
     margin-left: 10rem;
@@ -1155,10 +1166,10 @@ body {
     color: rgb(255, 255, 255);
     font-size: 1rem;
     cursor: pointer;
-}
-#a122:active{
-  text-decoration: underline yellow;
-}
+  }
+  #a122:active {
+    text-decoration: underline yellow;
+  }
   .main4 {
     width: 100%;
     height: auto;
