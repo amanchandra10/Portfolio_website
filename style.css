@@ -74,6 +74,12 @@ body {
   left: 15%;
   transform: translate(-50%, -50%);
 }
+.projbtn1 {
+  position: absolute;
+  top: 65%;
+  left: 24%;
+  transform: translate(-50%, -50%);
+}
 .projectBtn {
   padding: 5px;
   border-radius: 4px;
@@ -937,6 +943,12 @@ body {
     position: absolute;
     top: 50%;
     left: 23%;
+    transform: translate(-50%, -50%);
+  }
+  .projbtn1 {
+    position: absolute;
+    top: 55%;
+    left: 33%;
     transform: translate(-50%, -50%);
   }
   .projectBtn {
