@@ -1040,6 +1040,8 @@ body {
   .contact {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
   }
   .cont {
     margin-left: 10rem;
