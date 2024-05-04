@@ -251,7 +251,7 @@ body {
 }
 
 .ul > li > a{
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  font-family:'Source Sans Pro Topnav', sans-serif;;
 }
 
 .ul>li>a:hover{
@@ -839,6 +839,20 @@ body {
   cursor: pointer;
   transform: scale(1.2);
 }
+
+.email-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.resume{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .contact2 {
   /* background-color: red; */
   height: 25rem;
@@ -1001,7 +1015,7 @@ body {
   }
   .projbtn1 {
     position: absolute;
-    top: 55%;
+    top: 56%;
     left: 27%;
     transform: translate(-50%, -50%);
   }
