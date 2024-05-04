@@ -419,10 +419,11 @@ body {
 }
 .con {
   background-color: rgb(128, 174, 80);
-  height: 17rem;
+  /* height: 17rem; */
   /* width: 30rem; */
   /* padding-left: 2rem; */
   padding-top: 1rem;
+  padding-bottom: 1rem;
   display: flex;
   flex-direction: column;
   background-color: rgb(102, 98, 93);
