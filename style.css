@@ -747,8 +747,8 @@ body {
 .contact1 {
   background-color: whitesmoke;
   height: 20rem;
-  /*width: 100%;
-  */padding: 10px 40px;
+  /*width: 100%;*/
+  padding: 10px 40px;
   display: flex;
   border-radius: 3px;
   flex-direction: column;
