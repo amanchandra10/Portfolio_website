@@ -156,3 +156,18 @@ window.onscroll = function() {
   
 };
 
+
+
+// ====================================================================
+
+function displaynav(){
+  const nav33 =document.querySelector(".nav33")
+  if (nav33.style.visibility=="hidden") {
+    nav33.style.visibility="visible"
+  } else {
+    nav33.style.visibility="hidden"
+  }
+  
+  // alert("hi")
+}
+

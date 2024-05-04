@@ -1,5 +1,6 @@
 :root{
   --bg-color: rgba(0, 0, 0, 0);
+  --font-family:'Source Sans Pro Topnav', sans-serif;
 }
 
 
@@ -139,6 +140,7 @@ body {
   overflow: hidden;
   position: fixed;
   top: 0;
+  z-index: 3;
 }
 .emoji {
   font-size: 40px;
@@ -196,6 +198,14 @@ body {
     width: 400vw;
   }
 } */
+
+
+
+
+
+
+
+
 .nav2 {
   /* background-color: aqua; */
   padding-left: 1%;
@@ -236,8 +246,87 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  /* visibility: hidden; */
   /* background-color: brown; */
   /* margin-right: 4rem; */
+}
+
+.nav33{
+  /* height: 4rem; */
+  width: 100vw;
+  /* background-color: rgb(230, 44, 44); */
+  position: absolute;
+  top: 11%;
+  z-index: 3;
+  position: fixed;
+  
+
+}
+.nav33>.ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* gap: 10px; */
+  padding: 10px 0px;
+}
+
+.nav33>.ul>li{
+  background-color: rgba(55, 55, 55, 0.891);
+  width: 100%;
+  text-align: center;
+  padding: 1rem 0rem;
+  /* border: 1px solid gray; */
+}
+
+.nav33>.ul>li>.a{
+  color: white;
+  font-family: var(--font-family);
+  font-size: larger;
+  font-weight: 550;
+}
+
+.divmobile{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 8px;
+  /* background-color: #314fe5; */
+  /* visibility: hidden; */
+  display: none;
+  cursor: pointer;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.divmobile0{
+  background-color: black;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  padding: 5px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.divmob1{
+  border: 3px solid white;
+  padding: 0px 1rem;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
 }
 
 .ul {
@@ -251,7 +340,7 @@ body {
 }
 
 .ul > li > a{
-  font-family:'Source Sans Pro Topnav', sans-serif;;
+  font-family:var(--font-family);
 }
 
 .ul>li>a:hover{
@@ -982,9 +1071,14 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    visibility: hidden;
     /* background-color: brown; */
     /* margin-right: 4rem; */
   }
+.divmobile{
+  display: block;
+}
+
   .ul {
     display: flex;
     justify-content: end;
