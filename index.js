@@ -23,6 +23,7 @@ function skill(){
     <ul class="ul1">
       <li>PYTHON</li>
       <li>C</li>
+      <li>Java</li>
       <li>C++</li>
       <li></li>
     </ul>
@@ -34,10 +35,11 @@ function experience(){
     con.innerHTML=
     `<h1 style="color:aliceblue;">Experience</h1>
     <ul class="ul1" >
-    <li><p>• 1 month internship experience in The  Codeclause. <a style="color: rgba(255, 179, 37, 0.696);" href="https://github.com/amanchandra10/CodeClauseInternship_Basic_Chat_App" target="main">Project 1</a> <a style="color: rgba(255, 179, 37, 0.696);" href="https://github.com/amanchandra10/CodeClauseInternship_News_Portal" target="main">Project 2</a> <a style="color: rgba(255, 179, 37, 0.696);" href="https://github.com/amanchandra10/CodeClauseInternship_Basic_Text_Editor" target="main">Project 3</a></p></li>
-    <li><p>• 6 month internship experience in The Predulive Labs. <a style="color: rgba(255, 179, 37, 0.696);" href="https://betaecom.onrender.com/" target="main">Project Link</a></p></li>
-    <li><p>• 1 month internship experience in The Sparks Foundation. <a style="color: rgba(255, 179, 37, 0.696);" href="https://github.com/amanchandra10/Spark_Foundation_Task1" target="main">Project Link</a></p></li>
-    <li><p>• 1 month internship experience in Oasis Infobyte. <a style="color: rgba(255, 179, 37, 0.696);" href="https://amanchandra10.github.io/OIBSIP-To-Do-Webapp/" target="main">Project 1</a> <a style="color: rgba(255, 179, 37, 0.696);" href="https://amanchandra10.github.io/OIBSIP-Calculator/" target="main">Project 2</a> <a style="color: rgba(255, 179, 37, 0.696);" href="https://amanchandra10.github.io/OIBSIP-Tribute-page/" target="main">Project 3</a></p></li>
+    <li><p>• 1 month internship experience as Mobile App Developer in Oasis Infobyte. <a style="color: rgba(255, 179, 37, 0.696);" href="https://github.com/amanchandra10/OIBSIP-To-Do-App" target="main">Project 1</a> <a style="color: rgba(255, 179, 37, 0.696);" href="https://github.com/amanchandra10/OIBSIP-Calculator-App" target="main">Project 2</a> <a style="color: rgba(255, 179, 37, 0.696);" href="https://github.com/amanchandra10/OIBSIP-Unit-Converter-App" target="main">Project 3</a></p></li>
+    <li><p>• 1 month internship experience as Web Developer in Codeclause. <a style="color: rgba(255, 179, 37, 0.696);" href="https://github.com/amanchandra10/CodeClauseInternship_Basic_Chat_App" target="main">Project 1</a> <a style="color: rgba(255, 179, 37, 0.696);" href="https://github.com/amanchandra10/CodeClauseInternship_News_Portal" target="main">Project 2</a> <a style="color: rgba(255, 179, 37, 0.696);" href="https://github.com/amanchandra10/CodeClauseInternship_Basic_Text_Editor" target="main">Project 3</a></p></li>
+    <li><p>• 6 month internship experience as Web Developer in Predulive Labs. <a style="color: rgba(255, 179, 37, 0.696);" href="https://betaecom.onrender.com/" target="main">Project Link</a></p></li>
+    <li><p>• 1 month internship experience as Web Developer in The Sparks Foundation. <a style="color: rgba(255, 179, 37, 0.696);" href="https://github.com/amanchandra10/Spark_Foundation_Task1" target="main">Project Link</a></p></li>
+    <li><p>• 1 month internship experience as Web Developer in Oasis Infobyte. <a style="color: rgba(255, 179, 37, 0.696);" href="https://amanchandra10.github.io/OIBSIP-To-Do-Webapp/" target="main">Project 1</a> <a style="color: rgba(255, 179, 37, 0.696);" href="https://amanchandra10.github.io/OIBSIP-Calculator/" target="main">Project 2</a> <a style="color: rgba(255, 179, 37, 0.696);" href="https://amanchandra10.github.io/OIBSIP-Tribute-page/" target="main">Project 3</a></p></li>
     </ul>`
 }
 function education(){
@@ -130,5 +132,27 @@ window.onload = function() {
   css.type = "text/css";
   css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff; }";
   document.body.appendChild(css);
+};
+
+
+
+
+
+
+
+
+const nav = document.querySelector(".nav1")
+
+window.onscroll = function() {
+  // Check if the user has scrolled down 500 pixels from the top of the document
+  if (window.scrollY >= 30) {
+    // nav.style.background ="#24292f";
+    nav.style.background ="linear-gradient(to right, rgba(106, 17, 203, 0.9), rgba(37, 117, 252, 0.9) )";
+  }
+  else {
+    nav.style.background ="";
+  }
+   
+  
 };
 
