@@ -162,11 +162,19 @@ window.onscroll = function() {
 
 function displaynav(){
   const nav33 =document.querySelector(".nav33")
-  if (nav33.style.visibility=="hidden") {
-    nav33.style.visibility="visible"
-  } else {
-    nav33.style.visibility="hidden"
-  }
+  const divmobile0 = document.querySelector(".divmobile0")
+  nav33.classList.toggle("givewidth")
+  divmobile0.classList.toggle("open")
+  // if (nav33.style.visibility=="hidden") {
+  //   nav33.style.visibility="visible"
+  //   nav33.classList.toggle("givewidth")
+  //   divmobile0.classList.toggle("open")
+
+  // } else {
+  //   nav33.style.visibility="hidden"
+  //   nav33.classList.toggle("givewidth")
+  //   divmobile0.classList.toggle("open")
+  // }
   
   // alert("hi")
 }
