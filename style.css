@@ -696,7 +696,7 @@ body {
   box-shadow: -1px 1px 4px 3px rgb(255, 255, 255);
 }
 .main6 {
-  /* height: 86vh; */
+  height: auto;
   width: 100;
   /* background-color: rgb(78, 78, 78); */
   background-color:var(--bg-color);
@@ -844,9 +844,8 @@ body {
   /* box-shadow: -1px 1px 10px 3px rgb(255, 255, 255); */
   transform: scale(1.13);
 }
-/* .details:hover {
-  display: block;
-  height: 300px;
+/* .details{
+font-size: 0.6rem;
 } */
 .work-img {
   height: 100%;
@@ -1290,8 +1289,8 @@ body {
   }
 
   .work-img{
-  width: auto;
-  height: 100%;
+  width: 100%;
+  height: auto;
   }
 
   .work-link {
@@ -1302,7 +1301,7 @@ body {
     width: 100%;
   }
   .work2 {
-    height: 10rem;
+    height: auto;
     width: 100%;
   }
   .work-btn {
